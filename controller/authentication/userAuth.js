@@ -60,3 +60,61 @@ const login = async (req,res) => {
 module.exports ={
     createUser, login, alluser
 } 
+
+
+//login
+
+        // var ip = req.headers['x-forwarded-for'] ||
+        //     req.connection.remoteAddress ||
+        //     req.socket.remoteAddress ||
+        //     req.connection.socket.remoteAddress;
+        // var ret = ip.replace('::ffff:', '');
+        // /*PLEASE cheange on live time  var =>   ret in parameter insted of static ip address 
+        //                                        /\
+        //                                        ||                                                     */
+        // var details = await otherservice.ipdetails('182.70.122.187');
+        // var ip_data = JSON.parse(details);
+        // var i_p = ip_data.ip;
+        // var country = ip_data.country_name;
+        // var city = ip_data.city;
+        // var latitude = ip_data.latitude;
+        // var longitude = ip_data.longitude;
+        // var time_zone = ip_data.time_zone.current_time;
+        // var ua = req.headers['user-agent'];
+
+        // var browser = '';
+        // if (/firefox/i.test(ua))
+        //     browser = 'firefox';
+        // else if (/chrome/i.test(ua))
+        //     browser = 'chrome';
+        // else if (/safari/i.test(ua))
+        //     browser = 'safari';
+        // else if (/msie/i.test(ua))
+        //     browser = 'msie';
+        // else
+        //     browser = 'unknown';
+        // var date = new Date();
+        // var timestamp = date.getTime();
+        // var secret_key = md5(memberFound.id + timestamp);
+        // var loginlog = {
+        //     user_id: memberFound._id,
+        //     ip_address: i_p,
+        //     country: country,
+        //     city: city,
+        //     latitude: latitude,
+        //     longitude: longitude,
+        //     time_zone: time_zone,
+        //     web_browser: browser,
+        //     operating_system: process.platform,
+        //     platform: process.platform,
+        //     your_port: "",
+        //     secret_key: secret_key,
+        //     device_token: req.body.dvice_token,
+        //     login_type: req.body.login_type
+        // };
+
+
+
+
+
+ 
