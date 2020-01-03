@@ -72,7 +72,14 @@ module.exports ={
         // /*PLEASE cheange on live time  var =>   ret in parameter insted of static ip address 
         //                                        /\
         //                                        ||                                                     */
-        // var details = await otherservice.ipdetails('182.70.122.187');
+//          ipdetails: function (ret, callback) {
+//     return new Promise((resolve, reject) => {
+//       request("https://api.ipapi.com/api/" + ret + "?access_key=6910b3ac8efdbe59198800806a38e5b7", function (error, response, body) {
+//         resolve(response.body);
+//       });
+//     })
+//   },
+// var details = await otherservice.ipdetails('182.70.122.187');
         // var ip_data = JSON.parse(details);
         // var i_p = ip_data.ip;
         // var country = ip_data.country_name;
